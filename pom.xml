@@ -4,22 +4,23 @@
   <artifactId>tmeter_mongo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>tmeter mongo log repository</name>
-  <repositories>
-	<repository>
-        <id>morphia</id>
-        <url>http://morphia.googlecode.com/svn/mavenrepo/</url>
-    </repository>
-  </repositories>
   <dependencies>
   	<dependency>
   		<groupId>net.digitaltsunami</groupId>
   		<artifactId>tmeter</artifactId>
-  		<version>0.5-SNAPSHOT</version>
+  		<version>0.5</version>
   	</dependency>
   	<dependency>
   		<groupId>org.mongodb</groupId>
   		<artifactId>mongo-java-driver</artifactId>
   		<version>2.10.1</version>
   	</dependency>
+    <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.8.2</version>
+        <type>jar</type>
+        <scope>test</scope>
+    </dependency>
   </dependencies>
 </project>
